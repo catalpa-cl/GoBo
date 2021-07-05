@@ -28,6 +28,6 @@ Gender & Age
 
 ### Experiment 1: Impact of Personalization
 
-In this experiment we tested the effectiveness of the chosen personalization technique by evaluating the baseline model's performance before and after being retrained on all training samples provided by a writer. We then averaged the results across all participants and found the technique to reduce the model's CER on all test sets from 14.1% to 8% on average.
+In this experiment we evaluated the effectiveness of the chosen personalization technique by comparing the baseline model's performance before and after being retrained on all training samples provided by a writer. We then averaged the results across all participants and found the technique to reduce the model's CER on all test sets from 14.1% to 8% on average. Encouraged by the results we then chose to proceed with improving the data requirements in the following experiments.
 
 ### Experiment 2: Required Amount of Personalized Handwriting Samples
