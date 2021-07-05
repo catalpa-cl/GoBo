@@ -38,3 +38,5 @@ One of the main points of interest for the paper was finding the right balance b
 
 At this stage, we were concerned that the improvements we observed weren't due to an improved understanding of the target writing style but the result of the model
 adapting to the properties of the new dataset (e.g. artefacts of the scanning process, the segmentation method or the pens used for writing). In order to show the latter wasn't the case, we retrained the model on the samples provided by a single writer and evaluated it on the remaining writing styles in our dataset. Assuming the improvements were caused by the model adapting to our dataset and not to the target writing style, the resulting model should have shown reduced error rates even for the remaining writers. As this wasn't the case we attributed the improvements to the model getting more familiar to the writing style.
+
+### Experiment 4: Domain-Specific Results
