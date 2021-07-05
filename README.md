@@ -31,3 +31,7 @@ Gender & Age
 In this experiment we evaluated the effectiveness of the chosen personalization technique by comparing the baseline model's performance before and after being retrained on all training samples provided by a writer. We then averaged the results across all participants and found the technique to reduce the model's CER on all test sets from 14.1% to 8% on average. Encouraged by the results we then chose to proceed with improving the data requirements in the following experiments.
 
 ### Experiment 2: Required Amount of Personalized Handwriting Samples
+
+One of the main points of interest for the paper was finding the right balance between data requirements and performance gain. Accordingly, our second experiment focused on how the personalization technique deals with smaller datasets. For all 40 available writing styles we computed the reducting in CER for a total of 53 different dataset sizes (all multiples of 10 from 10 to 530 samples). As a result we were able to show that it is possible to obtain decent reductions in error rates even when using smaller subsets of the original datasets.
+
+### Experiment 3: Personalization or just Task Adaptation
