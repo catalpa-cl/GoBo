@@ -18,11 +18,15 @@ The latest version of the dataset can be downloaded [here](link missing).
 2 sets from 2 domains for testing
 926 words/writer, 37k words in total
 
-Gender & Age
+### Gender & Age
+
 | female | male | 20-29 | 30-39 | 40-49 | 50-59 | 60-99 | avg |
 | ------ | ---- | ----- | ----- | ----- | ----- | ----- | --- |
 |     17 |   23 |    22 |    10 |     1 |     5 |     2 |  34 |
 
+### Domains
+
+* **Random**:
 
 ## Experiments
 
