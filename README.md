@@ -40,3 +40,9 @@ At this stage, we were concerned that the improvements we observed weren't due t
 adapting to the properties of the new dataset (e.g. artefacts of the scanning process, the segmentation method or the pens used for writing). In order to show the latter wasn't the case, we retrained the model on the samples provided by a single writer and evaluated it on the remaining writing styles in our dataset. Assuming the improvements were caused by the model adapting to our dataset and not to the target writing style, the resulting model should have shown reduced error rates even for the remaining writers. As this wasn't the case we attributed the improvements to the model getting more familiar to the writing style.
 
 ### Experiment 4: Domain-Specific Results
+
+In our fourth experiment we wanted to investigate the impact of the text's domain on the personalization. Therefore we split the training data for each writer into the original texts and used the resulting datasets for personalization. Similarly to the second experiment, we also iterated over various dataset sizes (multiples of 10) in order to analyze the correlation between the number of training samples that are available for the specific domain and the resulting improvements in recognition rates.
+
+Our initial hypothesis was that a text with the same domain as the test set would be the most effective due to the model becoming more familiar with words that occur in both texts. The results indicate that the chosen domain of the training samples does indeed matter when creating a dataset for personalization. While the nonwords actually impacted the performance negatively in some cases, the random word dataset was clearly outperformed by the domain specific samples.
+
+### Experiment 5: Best Performing Samples
