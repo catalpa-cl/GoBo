@@ -24,9 +24,14 @@ The latest version of the dataset can be downloaded [here](link missing).
 | ------ | ---- | ----- | ----- | ----- | ----- | ----- | --- |
 |     17 |   23 |    22 |    10 |     1 |     5 |     2 |  34 |
 
-### Domains
+### Test sets
 
-* **Random**:
+### Training sets
+
+* **Random:** Randomly selected words from the Brown Corpus. This dataset served as a baseline representing a dataset chosen randomly without taking into consideration the target text's domain.
+* **Nonword:** Here, we used pseudowords that are similar to the English language but carry no meaning. Our nonwords were selected from the ARC Nonword Database, using the attribute *polymorphemic only syllables*. Exemplary nonwords are *plawgns* , *fuphths* and *ghrelphed*. The main purpose of this text was to investigate wether it is necessary to use existing words for personalization.
+* **CEDAR Letter**: The CEDAR letter was specifically crafted to contain all English characters and common character combinations. All characters appear at least once at the beginning and the middle of a word. Moreover, all letters appear in upper and lowercase as well as all numbers. Due to its previous application in handwriting identification we assumed that a letter designed for capturing various properties of a writing style would also be suitable for personalization.
+* **Domain-specific:** The two domain-specific training sets contain most of the words you would expect to occur in a text of the corresponding domain. 
 
 ## Experiments
 
