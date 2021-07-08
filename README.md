@@ -1,5 +1,6 @@
-# GoBo a Handwriting Recognition dataset for Personalization (Work in progress!)
+# GoBo a Handwriting Recognition dataset for Personalization
 
+The Readme will be finished soon!
 
 This repository comprises the collected dataset of handwritten transcriptions of the ASAP SAS.  
 
@@ -55,3 +56,11 @@ In our fourth experiment we wanted to investigate the impact of the text's domai
 Our initial hypothesis was that a text with the same domain as the test set would be the most effective due to the model becoming more familiar with words that occur in both texts. The results indicate that the chosen domain of the training samples does indeed matter when creating a dataset for personalization. While the nonwords actually impacted the performance negatively in some cases, the random word dataset was clearly outperformed by the domain specific samples.
 
 ### Experiment 5: Best Performing Samples
+
+We noticed a large variance in results between different subsets of a given size that were randomly selected from our training data. This left us wondering if it is possible to choose subsets from our training data that are able to outperform the domain-specific datasets from the previous experiment while having the same size. For each domain we randomly sampled 1000 subsets that matched the size of the corresponding domain-specific training set and evaluated their performance for writer adaptation. In order to keep the time requirements low we restricted this experiment to only the hardest and the easiest writing style for our model to recognize and one dataset representing the average writer.
+
+The results indicate that, while there are multiple subsets that outperform the domain-specific training data, the expected improvements when personalizing a model on the domain-specific training data are higher than those of randomly chosen datasets.
+
+### Experiment 6: Adversarial Attacks
+
+TODO
