@@ -1,4 +1,4 @@
-# GoBo a Handwriting Recognition dataset for Personalization
+# GoBo a Handwriting Recognition dataset for Personalization (Work in progress!)
 
 
 This repository comprises the collected dataset of handwritten transcriptions of the ASAP SAS.  
