@@ -63,4 +63,8 @@ The results indicate that, while there are multiple subsets that outperform the 
 
 ### Experiment 6: Adversarial Attacks
 
-TODO
+One use case of personalization could be when using handwriting recognition for automated exam scoring. For this scenario, one has to take into consideration that a student might - either intentionally or by accident - add errors into the text used for personalization which could lead to incorrectly labeled samples or a poor dataset quality in general. 
+
+In this experiment we explored the impact of incorrectly labeled training samples on the personalization results. For this, we labeled 10 to 100% (with a step size of 10%) of the labels incorrectly and measured the improvements or degradation of the model. The results suggest that personalization becomes harmful when 20% or more of the samples are labeled incorrectly.
+
+Fortunately, the baseline model can be used in order to detect incorrectly labeled training samples by checking if the prediction is close to an actual word and how much it deviates from the label. Additionally we found the baseline model to show a significantly higher loss value when evaluating it on datasets that are (partially) labeled incorrectly. These findings could help detecting errors before they negatively impact the automatic scoring precedure.
