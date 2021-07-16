@@ -35,11 +35,6 @@ def compute_results(path, model, train_all, test_A, test_B, num_iterations=1000)
         train_A = random.sample(train_all, set_size_A)
         train_B = random.sample(train_all, set_size_B)
 
-        if i < 100:
-            continue
-
-        print(i)
-
         # Retrain the model on train set A.
         retrain(model, train_A, test_A, verbose=False)
         wer, cer = evaluate(validate(model, test_A))
