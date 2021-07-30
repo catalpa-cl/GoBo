@@ -12,7 +12,7 @@ If you publish material based on this database - please refer to the following p
 
 
 ## Dataset Statistics (v.1.0)
-The latest version of the dataset can be downloaded [here](link missing).
+The latest version of the dataset can be downloaded [here] (https://www.ltl.uni-due.de/content/6-software/gobo_v1-0.zip).
 
 40 Participants
 5 sets from different sources for personalization 
