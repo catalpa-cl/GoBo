@@ -2,7 +2,7 @@
 
 The Readme will be finished soon!
 
-This repository comprises the collected dataset of handwritten transcriptions of the ASAP SAS.  
+This repository comprises the code and dataset used for the paper *Personalizing Handwriting Recognition Systems with Limited User-Specific Samples* (Link coming once the paper is published).
 
 ## Terms of Use & Citation
 This database may be used for non-commercial research purpose only. 
@@ -31,6 +31,10 @@ The latest version of the dataset can be downloaded [here](https://www.ltl.uni-d
 * **Nonword:** Here, we used pseudowords that are similar to the English language but carry no meaning. Our nonwords were selected from the ARC Nonword Database, using the attribute *polymorphemic only syllables*. Exemplary nonwords are *plawgns* , *fuphths* and *ghrelphed*. The main purpose of this text was to investigate wether it is necessary to use existing words for personalization.
 * **CEDAR Letter**: The CEDAR letter was specifically crafted to contain all English characters and common character combinations. All characters appear at least once at the beginning and the middle of a word. Moreover, all letters appear in upper and lowercase as well as all numbers. Due to its previous application in handwriting identification we assumed that a letter designed for capturing various properties of a writing style would also be suitable for personalization. [https://cedar.buffalo.edu/Databases/index.html]
 * **Domain-specific:** The two domain-specific training sets contain most of the words you would expect to occur in a text of the corresponding domain. 
+
+| domain | random / brown |
+| ------ | -------------- |
+| #words | 155            |
 
 ### Test sets
 
