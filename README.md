@@ -1,4 +1,4 @@
-# GoBo a Handwriting Recognition dataset for Personalization
+# GoBo - A Handwriting Recognition dataset for Personalization
 
 The Readme will be finished soon!
 
