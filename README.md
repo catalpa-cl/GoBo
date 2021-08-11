@@ -95,6 +95,14 @@ Fortunately, the baseline model can be used in order to detect incorrectly label
 
 [The corresponding source code can be found here.](https://github.com/ltl-ude/GoBo/blob/main/Personalization/src/experiment8.py)
 
+## How to run the code
+
+1. Download the dataset ([link](https://www.ltl.uni-due.de/content/6-software/gobo_v1-0.zip)) and the baseline model (TODO: Add link).
+2. Put the dataset into the folder *GoBo/Personalization/data/datasets/retrain/*
+3. Put the baseline model into the folder *GoBo/Personalization/checkpoints*
+4. Install the required python libraries. A list of all required libraries will be added soon.
+5. Run the code.
+
 ## References
 
 For the implementation we to some extend used publicly available code:
