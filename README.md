@@ -14,10 +14,10 @@ If you publish material based on this database - please refer to the following p
 ## Dataset Statistics (v.1.0)
 The latest version of the dataset can be downloaded [here](https://www.ltl.uni-due.de/content/6-software/gobo_v1-0.zip).
 
-40 Participants
-5 sets from different sources for personalization 
-2 sets from 2 domains for testing
-926 words/writer, 37k words in total
+* 40 Participants
+* 5 sets from different sources for personalization 
+* 2 sets from 2 domains for testing
+* 926 words/writer, 37k words in total
 
 ### Gender & Age
 
