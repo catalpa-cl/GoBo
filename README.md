@@ -100,7 +100,7 @@ Fortunately, the baseline model can be used in order to detect incorrectly label
 1. Download the dataset ([link](https://www.ltl.uni-due.de/content/6-software/gobo_v1-0.zip)) and the baseline model ([link](https://www.ltl.uni-due.de/content/6-software/gobo_baselinemodel.hdf5)).
 2. Put the *words*-folder of the dataset into the folder *GoBo/Personalization/data/datasets/retrain/*.
 3. Put the baseline model into the folder *GoBo/Personalization/checkpoints/*.
-4. Install the required python libraries. A list of all required libraries will be added soon.
+4. Install the required python libraries. A list of all required libraries is provided in form of a *requirements.txt*.
 5. Run the code.
 
 ## References
