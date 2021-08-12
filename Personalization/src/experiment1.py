@@ -129,6 +129,9 @@ def main():
 
     model = load_model(Const.baseline)
 
+    if not os.path.isdir('../logs/experiment1/'):
+        os.mkdir('../logs/experiment1/')
+
     for id in ids:
         # The requests for the datasets for writer A.
         train_request = '+'.join([id + '-' + text for text in texts])

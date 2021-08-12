@@ -1,0 +1,1760 @@
+{
+	"path": "datasets",
+	"dirs": 
+	[
+		{
+			"path":"IAM",
+			"files": 
+			[
+				{
+					"name": "iam-train",
+					"path": "train.txt"
+				},
+				{
+					"name": "iam-valid",
+					"path": "valid.txt"
+				},
+				{
+					"name": "iam-test",
+					"path": "test.txt"
+				},
+				{
+					"name": "iam-all",
+					"path": "words.txt"
+				}
+			]
+		},
+		{
+			"path": "retrain",
+			"dirs": 
+			[	
+				{
+					"path": "words",
+					"dirs":
+					[
+						{
+							"path": "0",
+							"files":
+							[
+								{
+									"name": "0-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "0-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "0-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "0-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "0-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "0-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "0-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "0-pg-worst",
+									"path": "pg_worst.txt"
+								},
+								{
+									"name": "0-pg-best",
+									"path": "pg_best.txt"
+								},
+								{
+									"name": "0-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "0-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "1",
+							"files":
+							[
+								{
+									"name": "1-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "1-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "1-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "1-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "1-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "1-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "1-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "1-pg-worst",
+									"path": "pg_worst.txt"
+								},
+								{
+									"name": "1-pg-best",
+									"path": "pg_best.txt"
+								},
+								{
+									"name": "1-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "1-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "2",
+							"files":
+							[
+								{
+									"name": "2-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "2-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "2-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "2-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "2-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "2-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "2-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "2-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "2-pg-worst",
+									"path": "pg_worst.txt"
+								},
+								{
+									"name": "2-pg-best",
+									"path": "pg_best.txt"
+								},
+								{
+									"name": "2-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "3",
+							"files":
+							[
+								{
+									"name": "3-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "3-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "3-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "3-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "3-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "3-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "3-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "3-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "3-pg_worst",
+									"path": "pg_worst.txt"
+								},
+								{
+									"name": "3-pg_best",
+									"path": "pg_best.txt"
+								},
+								{
+									"name": "3-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "4",
+							"files":
+							[
+								{
+									"name": "4-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "4-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "4-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "4-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "4-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "4-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "4-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "4-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "4-pg_worst",
+									"path": "pg_worst.txt"
+								},
+								{
+									"name": "4-pg_best",
+									"path": "pg_best.txt"
+								},
+								{
+									"name": "4-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "5",
+							"files":
+							[
+								{
+									"name": "5-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "5-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "5-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "5-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "5-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "5-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "5-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "5-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "5-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "6",
+							"files":
+							[
+								{
+									"name": "6-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "6-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "6-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "6-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "6-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "6-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "6-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "6-all",
+									"path": "all.txt"
+								}, 
+								{
+									"name": "6-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "7",
+							"files":
+							[
+								{
+									"name": "7-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "7-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "7-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "7-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "7-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "7-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "7-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "7-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "7-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "8",
+							"files":
+							[
+								{
+									"name": "8-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "8-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "8-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "8-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "8-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "8-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "8-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "8-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "8-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "9",
+							"files":
+							[
+								{
+									"name": "9-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "9-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "9-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "9-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "9-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "9-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "9-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "9-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "9-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "10",
+							"files":
+							[
+								{
+									"name": "10-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "10-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "10-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "10-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "10-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "10-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "10-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "10-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "10-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "11",
+							"files":
+							[
+								{
+									"name": "11-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "11-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "11-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "11-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "11-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "11-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "11-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "11-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "11-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "12",
+							"files":
+							[
+								{
+									"name": "12-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "12-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "12-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "12-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "12-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "12-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "12-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "12-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "12-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "13",
+							"files":
+							[
+								{
+									"name": "13-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "13-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "13-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "13-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "13-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "13-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "13-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "13-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "13-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "14",
+							"files":
+							[
+								{
+									"name": "14-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "14-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "14-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "14-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "14-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "14-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "14-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "14-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "14-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "15",
+							"files":
+							[
+								{
+									"name": "15-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "15-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "15-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "15-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "15-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "15-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "15-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "15-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "15-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "16",
+							"files":
+							[
+								{
+									"name": "16-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "16-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "16-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "16-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "16-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "16-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "16-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "16-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "16-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "17",
+							"files":
+							[
+								{
+									"name": "17-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "17-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "17-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "17-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "17-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "17-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "17-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "17-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "17-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "18",
+							"files":
+							[
+								{
+									"name": "18-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "18-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "18-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "18-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "18-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "18-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "18-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "18-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "18-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "19",
+							"files":
+							[
+								{
+									"name": "19-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "19-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "19-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "19-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "19-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "19-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "19-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "19-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "19-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "20",
+							"files":
+							[
+								{
+									"name": "20-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "20-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "20-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "20-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "20-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "20-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "20-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "20-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "20-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "21",
+							"files":
+							[
+								{
+									"name": "21-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "21-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "21-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "21-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "21-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "21-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "21-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "21-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "21-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "22",
+							"files":
+							[
+								{
+									"name": "22-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "22-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "22-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "22-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "22-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "22-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "22-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "22-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "22-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "23",
+							"files":
+							[
+								{
+									"name": "23-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "23-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "23-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "23-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "23-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "23-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "23-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "23-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "23-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "24",
+							"files":
+							[
+								{
+									"name": "24-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "24-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "24-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "24-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "24-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "24-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "24-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "24-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "24-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "25",
+							"files":
+							[
+								{
+									"name": "25-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "25-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "25-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "25-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "25-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "25-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "25-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "25-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "25-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "26",
+							"files":
+							[
+								{
+									"name": "26-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "26-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "26-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "26-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "26-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "26-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "26-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "26-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "26-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "27",
+							"files":
+							[
+								{
+									"name": "27-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "27-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "27-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "27-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "27-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "27-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "27-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "27-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "27-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "28",
+							"files":
+							[
+								{
+									"name": "28-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "28-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "28-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "28-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "28-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "28-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "28-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "28-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "28-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "29",
+							"files":
+							[
+								{
+									"name": "29-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "29-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "29-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "29-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "29-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "29-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "29-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "29-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "29-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "30",
+							"files":
+							[
+								{
+									"name": "30-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "30-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "30-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "30-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "30-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "30-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "30-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "30-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "30-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "31",
+							"files":
+							[
+								{
+									"name": "31-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "31-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "31-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "31-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "31-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "31-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "31-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "31-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "31-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "32",
+							"files":
+							[
+								{
+									"name": "32-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "32-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "32-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "32-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "32-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "32-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "32-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "32-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "32-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "34",
+							"files":
+							[
+								{
+									"name": "34-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "34-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "34-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "34-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "34-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "34-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "34-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "34-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "34-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "35",
+							"files":
+							[
+								{
+									"name": "35-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "35-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "35-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "35-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "35-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "35-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "35-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "35-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "35-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "36",
+							"files":
+							[
+								{
+									"name": "36-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "36-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "36-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "36-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "36-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "36-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "36-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "36-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "36-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "37",
+							"files":
+							[
+								{
+									"name": "37-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "37-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "37-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "37-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "37-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "37-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "37-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "37-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "37-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "38",
+							"files":
+							[
+								{
+									"name": "38-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "38-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "38-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "38-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "38-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "38-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "38-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "38-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "38-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "39",
+							"files":
+							[
+								{
+									"name": "39-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "39-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "39-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "39-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "39-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "39-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "39-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "39-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "39-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						},
+						{
+							"path": "40",
+							"files":
+							[
+								{
+									"name": "40-brown",
+									"path": "brown.txt"
+								},
+								{
+									"name": "40-cedar",
+									"path": "cedar.txt"
+								},
+								{
+									"name": "40-domain_A_test",
+									"path": "domain_A_test.txt"
+								},
+								{
+									"name": "40-domain_A_train",
+									"path": "domain_A_train.txt"
+								},
+								{
+									"name": "40-domain_B_test",
+									"path": "domain_B_test.txt" 
+								},
+								{
+									"name": "40-domain_B_train",
+									"path": "domain_B_train.txt"
+								},
+								{
+									"name": "40-nonwords",
+									"path": "nonwords.txt"
+								},
+								{
+									"name": "40-all",
+									"path": "all.txt"
+								},
+								{
+									"name": "40-train-all",
+									"path": "train_all.txt"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
