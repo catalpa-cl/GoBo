@@ -1,8 +1,6 @@
 # GoBo - A Handwriting Recognition dataset for Personalization
 
-The Readme will be finished soon!
-
-This repository comprises the code and dataset used for the paper *Personalizing Handwriting Recognition Systems with Limited User-Specific Samples* (Link coming once the paper is published).
+This repository comprises the code and dataset used for the paper *Personalizing Handwriting Recognition Systems with Limited User-Specific Samples* (a link will be added once the paper is published).
 
 ## Terms of Use & Citation
 This database may be used for non-commercial research purpose only. 
