@@ -8,7 +8,7 @@ from library.const import *
 
 from library.retrain import retrain
 from library.validate import validate
-from library.evaluation import evaluate
+from library.evaluation.evaluation import evaluate
 from library.data.dataset_manager import load_dataset
 
 

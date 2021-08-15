@@ -2,7 +2,7 @@ from library.model.callbacks import CallbackSettings
 
 
 class Const:
-    baseline = '../checkpoints/coling.hdf5'
+    baseline = '../checkpoints/gobo_baselinemodel.hdf5'
 
     # constant parameters for the input.
     input_size = (256, 64, 1)
