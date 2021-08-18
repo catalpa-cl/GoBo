@@ -1,20 +1,19 @@
 # GoBo - A Handwriting Recognition dataset for Personalization
 
-This repository comprises the code and dataset used for the paper *Personalizing Handwriting Recognition Systems with Limited User-Specific Samples* (a link will be added once the paper is published).
+This repository comprises the code and dataset as described in the paper *Personalizing Handwriting Recognition Systems with Limited User-Specific Samples* (a link will be added once the paper is published).
 
 ## Terms of Use & Citation
 This database may be used for non-commercial research purpose only. 
-If you publish material based on this database - please refer to the following paper:
+If you publish material based on this database - please refer to the information within the citation.cff file or the following paper:
 
 > Christian Gold, Dario van den Boom, Torsten Zesch. 2021. Personalizing Handwriting Recognition Systems with Limited User-Specific Samples. 16th International Conference on Document Analysis and Recognition (ICDAR).
-
 
 ## Dataset Statistics (v.1.0)
 The latest version of the dataset can be downloaded [here](https://www.ltl.uni-due.de/content/6-software/gobo_v1-0.zip).
 
 * 40 Participants
 * 5 sets from different sources for personalization 
-* 2 sets from 2 domains for testing
+* 2 sets from 2 domains (same domains as 2 personalization sets) for testing
 * 926 words/writer, 37k words in total
 
 ### Gender & Age
@@ -25,8 +24,8 @@ The latest version of the dataset can be downloaded [here](https://www.ltl.uni-d
 
 ### Training sets
 
-* **Random:** Randomly selected words from the Brown Corpus. This dataset served as a baseline representing a dataset chosen randomly without taking into consideration the target text's domain.
-* **Nonword:** Here we used pseudowords that are similar to the English language but carry no meaning. Our nonwords were selected from the ARC Nonword Database, using the attribute *polymorphemic only syllables*. Exemplary nonwords are *plawgns*, *fuphths* and *ghrelphed*. The main purpose of this text was to investigate whether it is even necessary to use existing words for personalization.
+* **Random:** Randomly selected words from the Brown Corpus. This dataset served as a baseline representing a dataset chosen randomly without taking into consideration the target texts' domain.
+* **Nonword:** Here we used pseudowords that are similar to the English language but carry no meaning. Our nonwords were selected from the ARC Nonword Database, using the attribute *polymorphemic only syllables*. Exemplary nonwords are *plawgns*, *fuphths* and *ghrelphed*. The main purpose of this text was to investigate whether it is necessary to use existing words for personalization.
 * **CEDAR Letter**: The CEDAR letter was specifically crafted to contain all English characters and common character combinations. All characters appear at least once at the beginning and the middle of a word. Moreover, all letters appear in both upper and lower case and the text contains all digits. Due to its previous application in handwriting identification we assumed that a letter designed for capturing various properties of a writing style would also be suitable for personalization. [https://cedar.buffalo.edu/Databases/index.html]
 * **Domain-specific:** The two domain-specific training sets contain most of the words you would expect to occur in a text of the corresponding domain. The domains used for this paper are *academic conferences* (domain A) and *artificial intelligence* (domain B).
 
@@ -40,7 +39,7 @@ The following table shows the number of words in each training set:
 
 * **Domain-specific:** In addition to the two domain-specific training sets we also used the same domains when creating our test sets.
 
-he following table shows the number of words in each test set:
+The following table shows the number of words in each test set:
 
 | domain | domain A | domain B |
 | ------ | -------- | -------- |
@@ -96,9 +95,9 @@ Fortunately, the baseline model can be used in order to detect incorrectly label
 ## How to run the code
 
 1. Download the dataset ([link](https://www.ltl.uni-due.de/content/6-software/gobo_v1-0.zip)) and the baseline model ([link](https://www.ltl.uni-due.de/content/6-software/gobo_baselinemodel.hdf5)).
-2. Put the *words*-folder of the dataset into the folder *GoBo/Personalization/data/datasets/retrain/*.
-3. Put the baseline model into the folder *GoBo/Personalization/checkpoints/*.
-4. Install the required python libraries. A list of all required libraries is provided in form of a *requirements.txt* ([link](https://github.com/ltl-ude/GoBo/blob/main/requirements.txt)).
+2. Place the *words*-folder of the dataset into the folder *GoBo/Personalization/data/datasets/retrain/*.
+3. Place the baseline model into the folder *GoBo/Personalization/checkpoints/*.
+4. Install the required python libraries! A list of all required libraries is provided in form of a *requirements.txt* ([link](https://github.com/ltl-ude/GoBo/blob/main/requirements.txt)).
 5. Run the code.
 
 ## References
