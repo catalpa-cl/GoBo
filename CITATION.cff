@@ -1,0 +1,16 @@
+# YAML 1.2
+---
+abstract: "Code for the paper \"Personalizing Handwriting Recognition Systems with Limited User-Specific Samples\""
+authors: 
+  -
+    family-names: Gold
+    given-names: Christian
+  -
+    family-names: "van den Boom"
+    given-names: Dario
+cff-version: "1.1.0"
+date-released: 2021-07-15
+message: "If you use this software, please cite it using these metadata."
+repository-code: "https://github.com/ltl-ude/GoBo"
+title: "HWR Personalization Experiments"
+...
