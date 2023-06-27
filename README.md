@@ -9,7 +9,7 @@ If you publish material based on this database - please refer to the information
 > Christian Gold, Dario van den Boom, Torsten Zesch. 2021. Personalizing Handwriting Recognition Systems with Limited User-Specific Samples. 16th International Conference on Document Analysis and Recognition (ICDAR).
 
 ## Dataset Statistics (v.1.0)
-The latest version of the dataset can be downloaded [here](https://www.ltl.uni-due.de/content/6-software/gobo_v1-0.zip).
+The latest version of the dataset can be downloaded [here](https://zenodo.org/record/8085511).
 
 * 40 Participants
 * 5 sets from different sources for personalization 
@@ -94,7 +94,7 @@ Fortunately, the baseline model can be used in order to detect incorrectly label
 
 ## How to run the code
 
-1. Download the dataset ([link](https://www.ltl.uni-due.de/content/6-software/gobo_v1-0.zip)) and the baseline model ([link](https://www.ltl.uni-due.de/content/6-software/gobo_baselinemodel.hdf5)).
+1. Download the dataset ([link](https://zenodo.org/record/8085511/files/GoBo_v1-0.zip?download=1)) and the baseline model ([link](https://zenodo.org/record/8085511/files/gobo_baselinemodel.hdf5?download=1)).
 2. Place the *words*-folder of the dataset into the folder *GoBo/Personalization/data/datasets/retrain/*.
 3. Place the baseline model into the folder *GoBo/Personalization/checkpoints/*.
 4. Install the required python libraries! A list of all required libraries is provided in form of a *requirements.txt* ([link](https://github.com/ltl-ude/GoBo/blob/main/requirements.txt)).
